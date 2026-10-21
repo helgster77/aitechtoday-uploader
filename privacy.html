@@ -1,21 +1,24 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Uploader privacy policy</title>
-<style>body{font:16px/1.6 system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#1a1a1a;background:#fff}h1{font-size:1.6em}a{color:#0b57d0}footer{margin-top:48px;font-size:.9em;color:#555}</style>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#1a1a1a;background:#fff}h1{font-size:1.6em}a{color:#0b57d0}nav{display:flex;gap:18px;padding:10px 0 14px;border-bottom:1px solid #ddd;margin-bottom:24px;font-weight:600}.yt{display:inline-block;background:#f2f2f2;border-radius:6px;padding:8px 12px;font-weight:600}footer{margin-top:48px;font-size:.9em;color:#555}</style>
 </head><body>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav>
 <h1>Privacy policy</h1>
-<p>This policy covers AI &amp; Tech Today Uploader, an internal tool that uploads videos to the AI &amp; Tech Today YouTube channel through YouTube API Services.</p>
-<h2>What the tool accesses</h2>
-<p>The tool asks for one Google permission, <code>youtube.upload</code>, which lets it upload videos and set their thumbnails on the authorised channel. It does not read, collect or store data about viewers, other channels or other Google accounts.</p>
-<h2>What is stored</h2>
-<p>The only data stored is the OAuth token for the channel owner's own account, kept on the owner's computer so uploads can run on a schedule. It is never shared with anyone or sent anywhere except Google.</p>
+<p>This policy covers AI &amp; Tech Today Uploader ("the client"), an internal tool that uploads videos to the AI &amp; Tech Today YouTube channel.</p>
+<h2>YouTube API Services</h2>
+<p>The client uses <strong>YouTube API Services</strong>. By using it you are also subject to the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, which describes how Google handles data: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+<h2>Information accessed, collected and used</h2>
+<p>The client asks for one Google permission, <code>youtube.upload</code>. It uses it only to upload videos, with their titles, descriptions, tags, thumbnails and settings, to the channel owner's own YouTube channel. It does not read, collect or store any data about viewers, other channels or other Google accounts, and it uses no cookies or analytics.</p>
+<h2>Information stored</h2>
+<p>The only data stored is the OAuth access and refresh token for the channel owner's own Google account, kept in a file readable only by the owner on the owner's computer, so scheduled uploads can run. The client also keeps a local record of each upload it makes (video ID and link).</p>
 <h2>Sharing</h2>
-<p>No data is sold, shared or disclosed to third parties.</p>
-<h2>Revoking access</h2>
-<p>Access can be revoked at any time from the <a href="https://myaccount.google.com/permissions">Google security settings page</a>; the stored token can then be deleted.</p>
-<h2>Google</h2>
-<p>The tool uses YouTube API Services. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>No data is sold, shared or disclosed to third parties. Data is sent only to Google, through YouTube API Services, to perform the uploads.</p>
+<h2>Revoking access and deleting data</h2>
+<p>Access can be revoked at any time from the Google security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>. Once access is revoked, or on request, the stored token is deleted from the owner's computer within 7 days; deleting the token file removes all stored authorisation data. The client stores no other data obtained from YouTube API Services, so nothing else needs to be deleted. Uploaded videos stay on YouTube and can be deleted in YouTube Studio.</p>
+<h2>Changes</h2>
+<p>Changes to this policy are published on this page with a new date.</p>
 <h2>Contact</h2>
-<p>To ask about this policy, <a href="https://github.com/helgster77/aitechtoday-uploader/issues">open an issue on GitHub</a>.</p>
-<footer><a href="./">AI &amp; Tech Today Uploader</a> · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a> · Last updated 21 October 2026</footer>
+<p>To ask about this policy or request deletion, <a href="https://github.com/helgster77/aitechtoday-uploader/issues">open an issue on GitHub</a>.</p>
+<footer><a href="./">AI &amp; Tech Today Uploader</a> · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a> · This client uses YouTube API Services · Last updated 21 October 2026</footer>
 </body></html>
